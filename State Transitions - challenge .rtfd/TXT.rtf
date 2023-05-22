@@ -1,0 +1,71 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2709
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww37900\viewh19680\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs28 \cf0 \ul \ulc0 States:
+\f1\b0 \ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Homepage\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Signup page\
+Login page\
+Dashboard page\
+\
+
+\f0\b \ul Events:
+\f1\b0 \ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Signup\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Login\
+Logout\
+\
+
+\f0\b \ul Transitions
+\f1\b0 \ulnone :\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Clicking \'91signup\'92 link takes user from Homepage to Signup page\
+Completing signup correctly takes user from Signup page to Dashboard page\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 	- Completing signup incorrectly prompts user to try again\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 	- If user already signed up, takes user to Login page\
+\
+Clicking \'91login\'92 link takes user from Homepage to Login page\
+Completing login correctly takes user from Login page to Dashboard page\
+	- Completing login incorrectly prompts user to try again\
+	- link to Signup page for new users\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 Clicking \'91logout\'92 link on Dashboard takes user back to Homepage\
+
+\fs24 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\fs28 \cf0 {{\NeXTGraphic Pasted Graphic 1.tiff \width28860 \height22160 \appleattachmentpadding0 \appleembedtype0 \appleaqc
+}¬}\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+
+\f0\b \ul Test case:\
+
+\f1\b0 \ulnone \
+1 go to homepage - does it load?\
+2 click signup link - does it route to signup?\
+3 try to sign up with an invalid email (tester@gmai.cpm) - does it reject?\
+4 try to sign up with valid email (tester@gmail.com) - does it accept & route to Dashboard?\
+5 click logout link on Dashboard - does it log user out & return to Homepage?\
+6 click login link - does it work?\
+7 try to login with an invalid email (tester@gmai.cpm) - does it reject?\
+8 try to login with correct details - does it accept & route to Dashboard?\
+9 try registering again with same email (tester@gmail.com) - does it route back to Login?\
+10 click login link on signup page - does it route back to login?\
+
+\fs24 \
+\
+}
